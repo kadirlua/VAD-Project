@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VADProject">
+      <UniqueIdentifier>{746da936-e5da-47cb-a41f-a545f78121d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VADProject\src">
+      <UniqueIdentifier>{538a7e12-ac69-4f7a-9c2a-ec95df899cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VADProject\include">
+      <UniqueIdentifier>{fe146815-e1c3-44dd-930b-80d13141647f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Voice Activity Detection Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Voice Activity Detection ProjectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\Demuxer.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\Decoder.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\CustomDeleter.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\Queue.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\SwrContext.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAD\SpeechDetector.h">
+      <Filter>VADProject\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Voice Activity Detection Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Voice Activity Detection ProjectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAD\Demuxer.cpp">
+      <Filter>VADProject\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VAD\Decoder.cpp">
+      <Filter>VADProject\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VAD\SwrContext.cpp">
+      <Filter>VADProject\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VAD\SpeechDetector.cpp">
+      <Filter>VADProject\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoiceActivityDetectionProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VoiceActivityDetectionProject.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Voice Activity Detection Project.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
